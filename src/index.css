@@ -6,8 +6,13 @@
 
 * {
   font-family: "Inter", sans-serif;
+  transition: all 0.5s;
 }
 
 .text-glow {
   text-shadow: 0 0 35px #0df3e0;
+}
+
+.project:hover > .project-detail {
+  display: flex;
 }

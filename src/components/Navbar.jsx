@@ -18,9 +18,9 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="sm:flex hidden gap-5 text-gray-300">
-          {navLinks.map((navLink) => {
+          {navLinks.map((navLink, key) => {
             return (
-              <li>
+              <li key={key}>
                 <a href={navLink.link}>{navLink.name}</a>
               </li>
             );
@@ -35,9 +35,9 @@ const Navbar = () => {
               : "hidden"
           }
         >
-          {navLinks.map((navLink) => {
+          {navLinks.map((navLink, key) => {
             return (
-              <li>
+              <li key={key}>
                 <a href={navLink.link}>{navLink.name}</a>
               </li>
             );
