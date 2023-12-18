@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { VscMenu } from "react-icons/vsc";
 import { VscClose } from "react-icons/vsc";
+import { navLinks } from "../data";
 
 const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -17,18 +18,13 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="sm:flex hidden gap-5 text-gray-300">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
+          {navLinks.map((navLink) => {
+            return (
+              <li>
+                <a href={navLink.link}>{navLink.name}</a>
+              </li>
+            );
+          })}
         </ul>
 
         {/* Mobile Menu */}
@@ -39,18 +35,13 @@ const Navbar = () => {
               : "hidden"
           }
         >
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
+          {navLinks.map((navLink) => {
+            return (
+              <li>
+                <a href={navLink.link}>{navLink.name}</a>
+              </li>
+            );
+          })}
         </ul>
 
         <button className="sm:hidden z-10 text-gray-200" onClick={handleClick}>
