@@ -2,7 +2,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 const Project = ({ title, techs, demoLink, desc, img }) => {
   return (
-    <div className="project p-2 border hover:translate-y-[-10px] border-gray-600 h-80 w-full rounded-lg relative">
+    <div className="project p-2 border hover:translate-y-[-10px] border-gray-700 hover:border-cyan-400 h-80 w-full rounded-lg relative">
       <img
         src={img}
         alt="Project image"
