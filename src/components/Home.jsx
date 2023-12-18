@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <div className="w-full h-screen bg-gray-900">
-      <div className="max-w-[1000px] mx-auto h-full flex flex-col justify-center px-5">
+      <div className="max-w-[1000px] mx-auto h-full flex flex-col justify-center px-7">
         <p className="text-cyan-400">Hi there, I am</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-gray-200 my-1">
           Ali Sajad Ahmadi
