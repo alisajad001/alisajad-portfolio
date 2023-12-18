@@ -10,7 +10,7 @@ const Projects = () => {
           <span className="text-cyan-400 text-glow">02</span> Projects
         </p>
 
-        <div className="mt-20 flex flex-col gap-10 justify-between sm:flex-row">
+        <div className="mt-20 flex flex-col gap-6 justify-between sm:flex-row">
           {projects.map((project) => {
             return (
               <Project
