@@ -1,8 +1,8 @@
 const About = () => {
   return (
     <div className="w-full h-screen bg-gray-900">
-      <div className="max-w-[1000px] h-full mx-auto p-10 relative flex flex-col justify-center">
-        <p className="font-bold text-4xl md:text-5xl text-gray-300 mb-10">
+      <div className="max-w-[1000px] h-full mx-auto p-10 relative flex flex-col justify-evenly">
+        <p className="font-bold text-4xl md:text-5xl text-gray-300">
           <span className="text-cyan-400 text-glow">01</span> About
         </p>
 
