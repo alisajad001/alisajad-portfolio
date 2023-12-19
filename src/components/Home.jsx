@@ -6,9 +6,9 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-gray-200 my-1">
           Ali Sajad Ahmadi
         </h1>
-        <h2 className="text-gray-400 text-4xl sm:text-7xl font-bold">
+        <p className="text-gray-400 text-4xl sm:text-7xl font-bold">
           I am a Front End Developer
-        </h2>
+        </p>
         <p className="text-gray-400 py-4 max-w-[700px]">
           Front end developer. HTML, CSS, JS, React. I create responsive,
           engaging interfaces with focus on performance and accessibility.

@@ -14,7 +14,7 @@ const Project = ({ title, techs, demoLink, desc, img }) => {
         <p className="text-sm mt-1 text-gray-400 mb-2">{desc}</p>
 
         <div className="flex justify-between">
-          <p className="text-gray-500 text-sm">{techs}</p>
+          <p className="text-gray-300 text-sm">{techs}</p>
 
           <a href={demoLink} target="_blank" className="text-cyan-400 text-sm">
             Live demo <FiExternalLink className="inline" />
