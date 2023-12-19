@@ -13,9 +13,12 @@ const Home = () => {
           Front end developer. HTML, CSS, JS, React. I create responsive,
           engaging interfaces with focus on performance and accessibility.
         </p>
-        <button className="border border-cyan-400 w-40 py-3 px-7 mt-5 text-cyan-400 hover:bg-cyan-400 hover:text-gray-900 transition font-semibold">
+        <a
+          href="#projects"
+          className="border border-cyan-400 w-40 py-3 text-center mt-5 text-cyan-400 hover:bg-cyan-400 hover:text-gray-900 transition font-semibold"
+        >
           See Works
-        </button>
+        </a>
       </div>
     </div>
   );
