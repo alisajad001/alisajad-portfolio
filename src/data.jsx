@@ -36,11 +36,11 @@ export const projects = [
 
 // Nav Links
 export const navLinks = [
-  { id: 1, name: "Home", link: "..." },
-  { id: 2, name: "About", link: "..." },
-  { id: 3, name: "Projects", link: "..." },
-  { id: 4, name: "Skills", link: "..." },
-  { id: 5, name: "Contact", link: "..." },
+  { id: 1, name: "Home", link: "#home" },
+  { id: 2, name: "About", link: "#about" },
+  { id: 3, name: "Projects", link: "#projects" },
+  { id: 4, name: "Skills", link: "#skills" },
+  { id: 5, name: "Contact", link: "#contact" },
 ];
 
 // Skills
