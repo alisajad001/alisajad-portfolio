@@ -8,8 +8,12 @@ const Contact = () => {
 
         <p className="text-gray-300">Submit a form bellow</p>
 
-        <div className="mt-10 w-full">
-          <form action="" className="flex flex-col gap-3">
+        <div className="mt-10 mx-auto w-full sm:w-[700px]">
+          <form
+            method="POST"
+            action="https://getform.io/f/e1948c3a-b171-4f3f-88a7-8389f9bd1d0b"
+            className="flex flex-col gap-3"
+          >
             <input
               type="text"
               name="name"
