@@ -5,6 +5,9 @@ import { FaReact } from "react-icons/fa6";
 import { FaGitAlt } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import weatherImage from "./assets/weather-app-demo.png";
+import todoImage from "./assets/todo-app-demo.png";
+import recipeImage from "./assets/recipe-finder-demo.png";
 
 // Projects data
 export const projects = [
@@ -14,7 +17,7 @@ export const projects = [
     techs: "React + Tailwind",
     desc: "Weather app using React & Tailwind with real time weather API.",
     demoLink: "https://weather-app0093.netlify.app/",
-    img: "https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=600&h=400",
+    img: weatherImage,
   },
   {
     id: 2,
@@ -22,7 +25,7 @@ export const projects = [
     techs: "React + Tailwind",
     desc: "Todo app using React & Tailwind with some cool features.",
     demoLink: "https://todo-app0093.netlify.app/",
-    img: "https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=600&h=400",
+    img: todoImage,
   },
   {
     id: 3,
@@ -30,7 +33,7 @@ export const projects = [
     techs: "React + Tailwind",
     desc: "Recipe Finder app uses a food API and fetches some recipes.",
     demoLink: "https://www.facebook.com",
-    img: "https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=600&h=400",
+    img: recipeImage,
   },
 ];
 
