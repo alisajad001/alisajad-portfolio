@@ -32,7 +32,7 @@ export const projects = [
     title: "Recipe Finder App",
     techs: "React + Tailwind",
     desc: "Recipe Finder app uses a food API and fetches some recipes.",
-    demoLink: "https://www.facebook.com",
+    demoLink: "https://recipe-finder0093.netlify.app/",
     img: recipeImage,
   },
 ];
