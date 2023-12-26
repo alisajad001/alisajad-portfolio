@@ -1,17 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
   transition: all 0.5s;
   scroll-behavior: smooth;
 }
 
-.text-glow {
-  text-shadow: 0 0 35px #0df3e0;
-}
-
-.project:hover > .project-detail {
-  display: flex;
+body {
+  background-color: #000000;
 }
