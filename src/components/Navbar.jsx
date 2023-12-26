@@ -1,58 +1,39 @@
 import React, { useState } from "react";
-import { VscMenu } from "react-icons/vsc";
-import { VscClose } from "react-icons/vsc";
-import { navLinks } from "../data";
+import MobileMenu from "./MobileMenu";
+import BurgerMenu from "./BurgerMenu";
 
 const Navbar = () => {
-  const [mobileNav, setMobileNav] = useState(false);
-
-  const handleClick = () => {
-    setMobileNav(!mobileNav);
-  };
+  const [isMenuActive, setIsMenuActive] = useState(false);
   return (
-    <nav className="w-full bg-gray-800 p-3">
-      <div className="max-w-[1000px] mx-auto flex justify-between items-center">
-        <div className="border border-cyan-400 text-cyan-400 w-10 h-10 rounded-md flex justify-center items-center font-bold">
-          <h3>AS</h3>
-        </div>
+    <header className="px-2">
+      <nav className="max-w-[1300px] h-16 text-white bg-[#131315] mx-auto mt-5 px-2 pl-6 rounded-full flex justify-between items-center">
+        <a href="#" className="font-bold">
+          aliSajad.
+        </a>
 
         {/* Desktop Menu */}
-        <ul className="sm:flex hidden gap-5 text-gray-300">
-          {navLinks.map((navLink, key) => {
-            return (
-              <li key={key}>
-                <a href={navLink.link}>{navLink.name}</a>
-              </li>
-            );
-          })}
+        <ul className="hidden md:flex gap-10 font-semibold text-[#8A8A93] mr-10">
+          <a href="#" className="hover:text-white">
+            Home
+          </a>
+          <a href="#" className="hover:text-white">
+            Works
+          </a>
+          <a href="#" className="hover:text-white">
+            Contact
+          </a>
         </ul>
 
         {/* Mobile Menu */}
-        <ul
-          className={
-            mobileNav
-              ? "absolute top-0 left-0 w-full h-screen bg-gray-900 text-white text-4xl flex flex-col gap-7 justify-center items-center"
-              : "hidden"
-          }
-        >
-          {navLinks.map((navLink, key) => {
-            return (
-              <li key={key}>
-                <a href={navLink.link}>{navLink.name}</a>
-              </li>
-            );
-          })}
-        </ul>
+        <MobileMenu isMenuActive={isMenuActive} />
 
-        <button className="sm:hidden z-10 text-gray-200" onClick={handleClick}>
-          {mobileNav ? (
-            <VscClose className="text-4xl" />
-          ) : (
-            <VscMenu className="text-2xl" />
-          )}
-        </button>
-      </div>
-    </nav>
+        {/* Burger Menu */}
+        <BurgerMenu
+          isMenuActive={isMenuActive}
+          setIsMenuActive={setIsMenuActive}
+        />
+      </nav>
+    </header>
   );
 };
 
