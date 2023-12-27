@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);
   return (
     <header className="px-2">
-      <nav className="max-w-[1300px] h-16 text-white bg-[#131315] mx-auto mt-5 px-2 pl-6 rounded-full flex justify-between items-center">
+      <nav className="max-w-[1300px] h-16 text-white bg-[#131315] border border-[#3c3c42] mx-auto mt-5 px-2 pl-6 rounded-full flex justify-between items-center">
         <a href="#" className="font-bold">
           aliSajad.
         </a>
