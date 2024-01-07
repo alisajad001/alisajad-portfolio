@@ -1,6 +1,5 @@
 import React from "react";
-import profilePic from "../assets/profile-photo.jpg";
-import { motion } from "framer-motion";
+import profilePic from "../assets/profile-photo.webp";
 
 const Home = () => {
   return (
@@ -26,7 +25,17 @@ const Home = () => {
             <span className="text-[#8A8A93]">based in Kabul.</span>
           </h1>
         </div>
-        <div className="bg-[#131315] border border-[#3c3c42] md:w-1/3 h-80 md:h-[30rem] rounded-2xl p-3 flex flex-col justify-center items-center text-center"></div>
+        <div className="bg-[#131315] border border-[#3c3c42] md:w-1/3 h-80 md:h-[30rem] rounded-2xl p-4 flex justify-evenly flex-col">
+          <h2 className="text-4xl md:text-5xl text-center font-bold">
+            Have a project <br /> in mind?
+          </h2>
+          <a
+            href="#"
+            className="bg-blue-600 w-full h-20 rounded-full text-xl lg:text-2xl font-bold flex justify-center items-center"
+          >
+            alisajadd7@gmail.com
+          </a>
+        </div>
       </section>
     </main>
   );
