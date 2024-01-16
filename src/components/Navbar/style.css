@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  padding: 30px 140px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.logo img {
+  width: 35px;
+}
+
+.logo h3 {
+  font-weight: 500;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #232323;
+  cursor: pointer;
+}
