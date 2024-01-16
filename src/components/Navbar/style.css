@@ -27,6 +27,13 @@
 
 .nav-link {
   text-decoration: none;
-  color: #232323;
+  color: #5b5b5b;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #232323;
 }
