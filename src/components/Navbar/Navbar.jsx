@@ -20,9 +20,7 @@ const Navbar = () => {
         <Link to="/" className="nav-link">
           About
         </Link>
-        <a href="#" className="btn-primary">
-          Download CV
-        </a>
+        <Link to="/" className="nav-link"></Link>
       </div>
     </nav>
   );

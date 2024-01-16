@@ -6,19 +6,3 @@
   box-sizing: border-box;
   font-family: "Heebo", sans-serif;
 }
-
-/* Buttons */
-.btn-primary {
-  padding: 5px 10px;
-  background-color: #633dfa;
-  border: 0;
-  border-radius: 5px;
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.btn-primary:hover {
-  background-color: #4d26e7;
-}
