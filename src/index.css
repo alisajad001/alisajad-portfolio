@@ -11,3 +11,21 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.text-primary {
+  color: #4f15ed;
+}
+
+.btn-primary {
+  background-color: #4f15ed;
+  border: 0;
+  padding: 12px 60px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #6836f2;
+}

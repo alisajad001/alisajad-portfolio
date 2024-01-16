@@ -1,0 +1,35 @@
+#home {
+  height: calc(100vh - 80px);
+}
+
+#home .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home .container .home-text {
+  width: 50%;
+}
+
+#home .container .home-text h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+#home .container .home-text p {
+  margin: 1rem 0 3rem 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #525252;
+  line-height: 1.7;
+}
+
+#home .container img {
+  width: 400px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 70px;
+}
