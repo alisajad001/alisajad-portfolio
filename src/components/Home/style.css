@@ -20,7 +20,11 @@
 }
 
 #home .container .home-text p {
+<<<<<<< HEAD
   margin: 1rem 0 3rem 0;
+=======
+  margin: 1rem 0 2rem 0;
+>>>>>>> 095eed9d951e4d82d203522fb760d6368dba0f5b
   font-size: 18px;
   font-weight: 300;
   color: #525252;
