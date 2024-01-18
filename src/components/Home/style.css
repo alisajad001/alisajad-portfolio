@@ -16,13 +16,12 @@
 #home .container .home-text h1 {
   font-size: 3.5rem;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #home .container .home-text p {
   margin: 1rem 0 3rem 0;
   font-size: 18px;
-  font-weight: 300;
   color: #525252;
   line-height: 1.7;
 }
