@@ -9,7 +9,7 @@ import weatherImage from "./assets/weather-app-demo.png";
 import todoImage from "./assets/todo-app-demo.png";
 import recipeImage from "./assets/recipe-finder-demo.png";
 
-// Projects data
+// Projects datas
 export const projects = [
   {
     id: 1,
