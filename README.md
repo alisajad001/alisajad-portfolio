@@ -16,3 +16,5 @@ Welcome to my portfolio website! This site is built using React and styled with 
 - Contact information and links to my social profiles
 
 Feel free to explore and learn more about my journey in web development!
+
+Coded by Ali Sajad
