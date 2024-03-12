@@ -15,6 +15,10 @@ Welcome to my portfolio website! This site is built using React and styled with 
 - Showcase of my skills, projects, and experience
 - Contact information and links to my social profiles
 
+## Screenshot
+![Screenshot (35)](https://github.com/alisajad001/alisajad-portfolio/assets/126584124/dac08ab0-2f93-4b00-bda5-ce820a6cb03a)
+
+
 Feel free to explore and learn more about my journey in web development!
 
 Coded by Ali Sajad
